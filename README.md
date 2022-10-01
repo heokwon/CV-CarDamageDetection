@@ -45,7 +45,7 @@ reference를 git clone하여 하이퍼파라미터 변경 및 inference추가
 <br><br>
 ## Env and Requirements
 * Google Colab, VScode, AWS
-* Pytorch, Pillow, cv2, Matplotlib, via, albumentation, Weights and Bias
+* Pytorch, Pillow, OpenCV, Numpy, Matplotlib, via, albumentation, Weights and Biases
 <br><br>
 ## Progress
 * 데이터셋 구축 - 구글링, via프로그램사용하여 직접만들기   
