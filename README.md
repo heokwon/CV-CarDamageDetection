@@ -39,7 +39,24 @@ reference를 git clone하여 하이퍼파라미터 변경 및 inference추가
 * Pytorch, Pillow, cv2, Matplotlib, via, albumentation, weights and bias
 <br><br>
 ## Progress
-* 업데이트 예정
+* 데이터셋 구축 - 구글링, via프로그램사용하여 직접만들기   
+
+* 데이터셋 정제   
+annotation info가 담겨있는 json파일을 이용하여 polygon2mask진행   
+확장자를 jpg에서 png로 바꾸기   
+binary형태의 데이터셋에서 class별로 array값을 다르게 부여햐여 multi dataset구축   
+unet에서 사용하기 위해 img형식의 mask.png를 array로 바꿔 mask.npy로 변경   
+split-folders를 사용하여 폴더안의 파일들을 train-set과 valid-set으로 나눔   
+
+* 데이터셋 증식   
+albumentation을 이용하여 오프라인에서 augmentation진행   
+HorizontaFlip, VerticalFlip, Blur, OpticalDistortion, Resize, RandomRotate90   
+
+* DeepLabV3 & Unet Reference 찾기   
+
+* DeepLabV3 Reference 튜닝, 최적의 hyperparameter찾기, pre-trained 모델에 fine-tuning 시키기   
+
+* Unet 논문 및 유투브 참고하여 직접구현 후 학습 진행
 <br><br>
 ## Referecne
 * via tool : https://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.6.html
