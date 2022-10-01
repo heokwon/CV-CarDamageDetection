@@ -4,9 +4,11 @@
 [PPT](https://github.com/heokwon/CV-CarDamageDetection/blob/main/car%20damage.pdf)
 <br><br>
 ## Introduction
-* Semantic Segmentation을 이용한 자동차 파손부위 탐지
+* Semantic Segmentation을 이용한 자동차 파손부위 탐지   
+
 * 사람이 직접 파손부위를 하나하나 검수해야 하는 부담을 덜 수 있고, 회사 입장에서도  
-인적,시간적 자원 절약 측면에서 좋을 것이라 생각하여 진행하게 된 프로젝트
+인적,시간적 자원 절약 측면에서 좋을 것이라 생각하여 진행하게 된 프로젝트   
+
 * 사진이나 영상 속 객체를 pixel단위로 탐지하여 object detection보다 세부적으로   
 detecting이 가능한 Semantic Segmentation을 선택
 <br><br>
