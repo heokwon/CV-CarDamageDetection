@@ -65,7 +65,7 @@ HorizontaFlip, VerticalFlip, Blur, OpticalDistortion, Resize, RandomRotate90
 
 * DeepLabV3 Reference 튜닝, 최적의 hyperparameter찾기, pre-trained 모델에 fine-tuning 시키기   
 
-* Weights and Bias를 연동하여 train-log 관리   
+* Weights and Biases를 연동하여 train-log 관리   
 
 * Unet 논문 및 유투브 참고하여 직접구현 후 학습 진행   
 
